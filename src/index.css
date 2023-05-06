@@ -5,9 +5,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo {
+  color: brown;
+  justify-self: center;
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  top: 10%;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.card {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em ;
+  width: 20em;
+  height: 35em;
+  border-radius: 2em;
+}
+.bgcw {
+  background-color: white;
+}
+.img {
+  height: 350px;
+  width: 300px;
+  border-radius: 2em;
+
+}
+
+.btnHeight {
+  height: 4em;
+}
+.btn {
+  width: 10em;
+  border-radius: 2em;
+  background-color: brown;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.cartItems {
+  justify-content: space-between;
+  margin: 1em;
+  padding: 0 2em;
+  border-radius: 2em;
+}
+
+.icon {
+  height: 3em;
+}
+.chkout {
+  width: 15em;
+  margin: 5em;
+}
+.cart {
+  width: 50%;
+}
+.math {
+  width: 4em;
+  margin: 0 1em;
 }
